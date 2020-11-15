@@ -1,0 +1,196 @@
+/*Colors*/
+
+body {
+    color: #595661;
+}
+
+.left {
+    background-color: #F5F4F5;
+}
+
+.shade {
+    background-color: #F5F4F5;
+    padding-top: 0.2em;
+}
+
+.header, .title {
+    color: rgb(133, 195, 86);
+}
+
+.personalInfoHeader,
+.historyPosition,
+.historyEmployer,
+.educationDegree {
+    color: black;
+}
+
+/*fonts and text*/
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.title {
+    font-size: 32px;
+    text-align: center;
+}
+
+.text-small {
+    font-size: 10px;
+    vertical-align:middle;
+}
+
+.header {
+    font-size: 26px;
+}
+
+.header, .title {
+    font-weight: bold;
+}
+
+.bold {
+    color: black;
+    font-weight: 900;
+}
+
+.text-accent {
+    color: black;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.personalInfoHeader,
+.historyPosition,
+.historyEmployer,
+.educationDegree {
+    font-weight: bold;
+}
+
+.skills li {
+    white-space: nowrap;
+}
+
+.profile, .portfolio, .historyRecordSummary {
+    text-align: justify;
+}
+
+a {
+    color: #595661;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+/*positioning*/
+
+.content {
+    display: flex;
+}
+
+.left {
+    flex: 5;
+}
+
+.right {
+    flex: 9;
+    margin-left: 50px;
+}
+
+.left > div {
+    margin: 1em 1em 0 1em;
+}
+
+.left .photo {
+    margin: 0;
+    display: none;
+}
+
+.left .photo img{
+    margin: 0;
+    border: 1px solid #85c356;
+    box-sizing: border-box;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.portfolio img {
+    margin: 1em;
+}
+
+.title, .header, .historyRecord, .educationRecord {
+    margin: 0.5em 0 0.5em 0;
+}
+
+.historyRecordSummary {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+.skills {
+    padding: 0;
+}
+
+.skills li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.skills li:not(:last-child)::after {
+    content: "›";
+    margin: 0 .25em;
+    color: #85c356;
+}
+
+.content.portfolio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.portfolio-delimiter .right {
+    margin-left: 0;
+}
+
+.portfolio-delimiter .header {
+    text-align: right;
+}
+
+.portfolio-contribution ul, .portfolio-stack ul {
+    margin-top: 0.2em;
+}
+
+.historyRecord, .historyResponsibility {
+    border-bottom: 1px solid #F5F4F5;
+}
+
+.code-links {
+    display: flex;
+    /* flex-direction: column;  */
+    justify-content: space-between;
+}
+
+/* skills flex  */
+
+.historyResponsibility {
+    display: flex;
+}
+
+.historyResponsibilityDescription {
+    flex: 10;
+}
+
+.skills {
+    flex: 10;
+}

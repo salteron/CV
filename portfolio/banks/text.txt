@@ -1,0 +1,26 @@
+As a member of a custom development team in "SKB Kontur" company I took an
+active part in development of the web application which allows to submit
+applications for bank services. Clients are welcome to submit applications,
+attach documents and sign them with electronic signatures. Agents assist clients
+in doing that. Bank employees review, approve or reject applications. The
+software heavily integrates with electronic documents flow system named Diadoc
+(by SKB Kontur) via its API to pass documents and signatures between parties.
+Thousands of applications are submitted through the site every year.
+
+I implemented user authentication and authorization features. As well as
+interactive way of attaching documents (files) to applications, documents
+signature, external APIs integrations and submission of advance applications
+from promo site. I wrote both server-side and client-side code. Now I take part
+in support of the application which involves bug-fixing, performing security and
+components updates.
+
+Server side is written in ruby programming language with ruby on rails web
+framework. Client side is written in JavaScript with jQuery and react libraries.
+PostgreSQL acts as the main database management system and Redis as supporting.
+Applications run under Linux OS. Docker is used to organize development
+environment. Capistrano and its web-interface Samson are used to deploy. RSpec
+is used for unit tests and cucumber for acceptance tests.
+
+The application is available via invitation and in the Russian language only at
+https://bg.kontur.ru/pskb. You can have a look at it's populated with fake data
+UI on translated from russian to english screenshots.

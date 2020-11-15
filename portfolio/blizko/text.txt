@@ -1,0 +1,32 @@
+BLIZKO.ru is an online marketplace with tens of millions of products, tens of
+thousands companies and up to thousand requests per minute.
+
+The application is available in the Russian language only at https://www.blizko.ru
+I translated several web pages from russian to english and made screenshots
+for demonstration.
+
+Requests per minute dynamics can be found at https://top.mail.ru/mdynamics?id=1384452&date=2019-07-12&period=0&lang=en
+
+Being a server-side developer I designed and implemented business features of
+different complexity. Such as users registration and authentication by phone
+number. I extended the products ranking formula which defines the order they are
+shown in listings. I added the ability to define traits for companies (price
+category, payment options, etc), both manually and automatically assign their
+values and filter companies by them in listings (faceted search). Deployed new
+banner management system and switched application to use it.
+
+I fixed critical problems with application stability and performance. I analyzed
+and profiled database queries, optimized them, cleaned up database and tuned its
+settings. This decreased server average response time from 500 ms to 300 ms and
+eliminated daily downtime at the time of peak load.
+
+I was among the very first who extracted components from monolithic application
+into gems (packets) to be shared and reused by other teams. I planned and
+performed complex deploys under load keeping the application up and running
+without errors.
+
+Application is monolithic. Server side is written in ruby programming language
+with ruby on rails web framework. Postgresql acts as the main database
+management system while redis, sphinx and memcached as supporting. Applications
+run under linux OS. Capistrano and its web-interface webistrano are used to
+deploy. RSpec is used for unit tests.

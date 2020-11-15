@@ -1,0 +1,28 @@
+As a member of a custom development team in "SKB Kontur" company I took an active
+part in every development stage from inception to completion of the web
+application which is an electronic documents management system for the russian
+branch of Decathlon company.
+
+It is used to upload, store, approve and sign documents with electronic
+signatures. It integrates with client's systems such as SAP SuccessFactors to
+import documents, human resource management system to import users and with SKB
+Kontur internal systems intended to issue and renew public key certificates,
+generate cloud based digital signatures and documents' print forms. There are
+tens of thousands of new documents annually.
+
+I implemented key features such as signing documents in a number of different
+ways, public key certificates issue and renewal. I contributed to integrations
+with all external systems and to users authentication/authorization system.
+I wrote and reviewed server-side and client-side code, unit and integration
+tests. Now I take part in support of the application which involves bug-fixing,
+performing security and components updates.
+
+Server side is written in ruby programming language with ruby on rails web
+framework. Client side is written in javascript with jquery and react libraries.
+Postgresql acts as the main database management system and redis as supporting.
+Applications run under linux OS. Docker is used to organize development
+environment. Capistrano and its web-interface samson are used to deploy. Rspec
+is used for unit tests and cucumber for acceptance tests.
+
+The application has been translated from russian to english and populated with
+fake data for demonstration. Public access to the web site is restricted.
