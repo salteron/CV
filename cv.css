@@ -69,7 +69,7 @@ body {
     font-weight: bold;
 }
 
-.skills li {
+.historyRecordSkills li {
     white-space: nowrap;
 }
 
@@ -163,17 +163,21 @@ div.personal-info-item {
     margin: 0;
 }
 
-.skills {
+.historyRecordSkills ul {
     padding: 0;
+    height: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-.skills li {
+.historyRecordSkills li {
     margin: 0;
     padding: 0;
     display: inline;
 }
 
-.skills li:not(:last-child)::after {
+.historyRecordSkills li::before {
     content: "›";
     margin: 0 .25em;
     color: #85c356;
@@ -196,7 +200,7 @@ div.personal-info-item {
     margin-top: 0.2em;
 }
 
-.historyRecord ul:not(.skills) {
+.historyRecordSummary ul {
     margin-top: 1%;
     padding-left: 5%;
     padding-right: 15%;
@@ -215,18 +219,4 @@ div.personal-info-item {
 
 .top-skills {
     padding-left: 10px;
-}
-
-/* skills flex  */
-
-.historyResponsibility {
-    display: flex;
-}
-
-.historyResponsibilityDescription {
-    flex: 10;
-}
-
-.skills {
-    flex: 10;
 }
