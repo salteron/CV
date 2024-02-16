@@ -79,16 +79,23 @@ body {
 
 a {
     color: #595661;
+    text-decoration-thickness: 2%;
+    text-underline-offset: 2px;
 }
 
 a:hover {
-    text-decoration: underline;
-  }
+    text-decoration-thickness: 7%;
+}
 
 .historyPosition, .historyEmployer, .historyPeriod {
     font-size: 20px;
     color: black;
     margin: 0;
+}
+
+.history-project-title {
+    color: black;
+    font-weight: 500;
 }
 
 /*positioning*/
