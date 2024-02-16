@@ -88,6 +88,7 @@ a:hover {
 .historyPosition, .historyEmployer, .historyPeriod {
     font-size: 20px;
     color: black;
+    margin: 0;
 }
 
 /*positioning*/
@@ -137,6 +138,22 @@ img {
 .historyRecordSummary {
     margin-top: 1.5em;
     margin-bottom: 1em;
+}
+
+div {
+    margin: 10px 0;
+}
+
+div.history-project {
+    margin: 25px 0;
+}
+
+div.personal-info-item {
+    margin: 0;
+}
+
+.educationRecord div {
+    margin: 0;
 }
 
 .skills {
