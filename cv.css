@@ -61,7 +61,7 @@ body {
 }
 
 .header {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .personalInfoHeader,
@@ -110,7 +110,10 @@ a:hover {
 
 .right {
     flex: 9;
-    margin-left: 50px;
+}
+
+.right > div {
+    margin: 1em 1em 0 1em;
 }
 
 .left > div {
