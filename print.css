@@ -17,3 +17,11 @@ header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
 .content.main {
     display: block;
 }
+
+.content.main .right {
+    break-before: page;
+}
+
+.header {
+    text-align: center;
+}

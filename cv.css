@@ -60,10 +60,6 @@ body {
     text-align: center;
 }
 
-.header {
-    /* text-align: center; */
-}
-
 .personalInfoHeader,
 .educationDegree {
     font-weight: bold;
@@ -87,10 +83,11 @@ a:hover {
     text-decoration-thickness: 7%;
 }
 
-.historyPosition, .historyEmployer, .historyPeriod {
+.historyRecordHeader div {
     font-size: 20px;
     color: black;
-    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .history-project-title {
@@ -112,23 +109,13 @@ a:hover {
     flex: 9;
 }
 
-.right > div {
-    margin: 1em 1em 0 1em;
+div {
+    padding: 5px 0;
 }
 
-.left > div {
-    margin: 1em 1em 0 1em;
-}
-
-.left .photo {
-    margin: 0;
-    display: none;
-}
-
-.left .photo img{
-    margin: 0;
-    border: 1px solid #85c356;
-    box-sizing: border-box;
+.left, .right {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 img {
@@ -141,29 +128,19 @@ img {
     margin: 1em;
 }
 
-.title, .header, .historyRecord, .educationRecord {
-    margin: 0.5em 0 0.5em 0;
-}
-
-.historyRecordSummary {
-    margin-top: 1.5em;
-    margin-bottom: 1em;
-}
-
-div {
-    margin: 10px 0;
-}
-
 div.history-project {
-    margin: 25px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 div.personal-info-item {
-    margin: 0;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .educationRecord div {
-    margin: 0;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .historyRecordSkills ul {
@@ -177,8 +154,6 @@ div.personal-info-item {
   }
 
 .historyRecordSkills li {
-    margin: 0;
-    padding: 0;
     display: inline;
 }
 
@@ -206,10 +181,8 @@ div.personal-info-item {
 }
 
 .historyRecordSummary ul {
-    margin-top: 1%;
-    padding-left: 5%;
-    padding-right: 15%;
-    text-align: justify;
+    margin: 0;
+    padding: 5px 5%;
 }
 
 .historyRecord, .historyResponsibility {
