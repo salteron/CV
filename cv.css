@@ -85,6 +85,11 @@ a:hover {
     text-decoration: underline;
   }
 
+.historyPosition, .historyEmployer, .historyPeriod {
+    font-size: 20px;
+    color: black;
+}
+
 /*positioning*/
 
 .content {
