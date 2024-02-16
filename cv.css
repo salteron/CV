@@ -213,6 +213,10 @@ div.personal-info-item {
     justify-content: space-between;
 }
 
+.top-skills {
+    padding-left: 10px;
+}
+
 /* skills flex  */
 
 .historyResponsibility {
