@@ -165,11 +165,13 @@ div.personal-info-item {
 
 .historyRecordSkills ul {
     padding: 0;
-    height: 4em;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
 }
+
+.historyRecordSkills li {
+    flex: 0 0 20%;
+  }
 
 .historyRecordSkills li {
     margin: 0;
