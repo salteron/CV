@@ -161,7 +161,7 @@ div.personal-info-item {
     color: #85c356;
 }
 
-.historyRecordSummary ul {
+.historyRecordSummary, .portfolio-contribution ul {
     margin: 0;
     padding: 5px 5%;
 }
