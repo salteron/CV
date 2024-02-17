@@ -2,16 +2,8 @@ header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
   display: none;
 }
 
-.content.portfolio.portfolio-delimiter {
+.portfolio.title {
     break-before: page;
-}
-
-.content.portfolio {
-    margin: 5px 0 0;
-}
-
-.content.portfolio.portfolio-delimiter {
-    margin-bottom: 25px;
 }
 
 .content.main {

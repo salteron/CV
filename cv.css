@@ -69,10 +69,6 @@ body {
     white-space: nowrap;
 }
 
-.profile, .portfolio, .historyRecordSummary {
-    text-align: justify;
-}
-
 a {
     color: #595661;
     text-decoration-thickness: 2%;
@@ -124,10 +120,6 @@ img {
     object-fit: contain;
 }
 
-.portfolio img {
-    margin: 1em;
-}
-
 div.history-project {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -161,23 +153,6 @@ div.personal-info-item {
     content: "›";
     margin: 0 .25em;
     color: #85c356;
-}
-
-.content.portfolio {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.portfolio-delimiter .right {
-    margin-left: 0;
-}
-
-.portfolio-delimiter .header {
-    text-align: right;
-}
-
-.portfolio-contribution ul, .portfolio-stack ul {
-    margin-top: 0.2em;
 }
 
 .historyRecordSummary ul {
