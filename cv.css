@@ -70,7 +70,7 @@ body {
 }
 
 a {
-    color: #595661;
+    color: inherit;
     text-decoration-thickness: 2%;
     text-underline-offset: 2px;
 }
@@ -82,6 +82,11 @@ a:hover {
 .historyRecordHeader div {
     font-size: 20px;
     color: black;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.portfolio-employer, .portfolio-role {
     padding-top: 0;
     padding-bottom: 0;
 }
