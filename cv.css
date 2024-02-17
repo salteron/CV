@@ -65,7 +65,7 @@ body {
     font-weight: bold;
 }
 
-.historyRecordSkills li {
+.skills li {
     white-space: nowrap;
 }
 
@@ -135,21 +135,22 @@ div.personal-info-item {
     padding-top: 0;
 }
 
-.historyRecordSkills ul {
+.skills ul {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
 }
 
-.historyRecordSkills li {
+.skills li {
     flex: 0 0 20%;
-  }
-
-.historyRecordSkills li {
     display: inline;
 }
 
-.historyRecordSkills li::before {
+.portfolio .skills li {
+    flex: 0 0 33%;
+}
+
+.skills li::before {
     content: "›";
     margin: 0 .25em;
     color: #85c356;
