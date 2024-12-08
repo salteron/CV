@@ -97,6 +97,14 @@ a:hover {
     font-weight: 500;
 }
 
+.screenshot {
+    margin-bottom: 1em;
+}
+
+.screenshot div {
+    font-size: 12px;
+}
+
 /*positioning*/
 
 .profile {
