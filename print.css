@@ -2,6 +2,10 @@ header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
   display: none;
 }
 
+.main-block {
+    padding: auto;
+}
+
 .portfolio.title {
     break-before: page;
 }
@@ -16,4 +20,9 @@ header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
 
 .header {
     text-align: center;
+}
+
+.historyRecordHeader:before,
+.historyRecordHeader:after {
+    display: none;
 }

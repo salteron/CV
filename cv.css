@@ -118,8 +118,8 @@ a:hover {
     text-align: left; /* Centers text within the item */
 }
 
-.main {
-    padding: 0 20%;
+.main-block {
+    padding: 0 10%;
 }
 
 .content {
@@ -216,19 +216,19 @@ div.personal-info-item {
 
 .historyRecordHeader:before,
 .historyRecordHeader:after {
-    border: solid 0 #000;
+    border: solid 0 #595661;
     border-width: 0.05em 0;
     bottom: calc((0.125em / 2) * 3);
     content: '';
     height: 0.15em;
     position: absolute;
-    width: calc(30% - (1em / 2));
+    width: calc(50% - (1em / 2));
 }
 
 .historyRecordHeader:before {
-    left: 20%;
+    left: 0;
 }
 
 .historyRecordHeader:after {
-    right: 20%;
+    right: 0;
 }
