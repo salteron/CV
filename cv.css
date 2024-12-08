@@ -4,19 +4,6 @@
     padding-top: 0.2em;
 }
 
-.section-title {
-    text-align: right;
-    margin: 0.5em auto;
-	font-family: "Yellowtail", cursive;
-	font-size: 50pt;
-	font-weight: 1;
-	color: #26231e;
-}
-
-.personalInfoHeader,
-.educationDegree {
-    color: black;
-}
 
 /*fonts and text*/
 
@@ -28,8 +15,12 @@ body {
 }
 
 .title {
-    font-size: 32px;
-    text-align: center;
+    text-align: right;
+    margin: 0.5em auto;
+	font-family: "Yellowtail", cursive;
+	font-size: 70px;
+	font-weight: 1;
+	color: #26231e;
 }
 
 .text-small {
@@ -38,7 +29,7 @@ body {
 }
 
 .header {
-    font-size: 26px;
+    font-size: 32px;
 }
 
 .header, .title {
@@ -46,13 +37,10 @@ body {
 }
 
 .bold {
-    /* font-weight: bold; */
-    /* color: black; */
     font-weight: 900;
 }
 
 .text-accent {
-    color: black;
     font-weight: bold;
 }
 
@@ -60,8 +48,7 @@ body {
     text-align: center;
 }
 
-.personalInfoHeader,
-.educationDegree {
+.personalInfoHeader {
     font-weight: bold;
 }
 
@@ -121,7 +108,6 @@ a:hover {
 
 .profile-columns div {
     flex: 1 1 calc(25% - 10px); /* Takes 25% width minus 10px for spacing */
-    margin: 5px; /* Adjusts spacing between items */
     box-sizing: border-box; /* Ensures padding and borders don't affect width */
     text-align: left; /* Centers text within the item */
 }
@@ -202,13 +188,8 @@ div.personal-info-item {
     border-bottom: 2px solid #F5F4F5;
 }
 
-.code-links {
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-between;
-}
-
 .top-skills {
+    margin-top: 0;
     padding-left: 10px;
 }
 
