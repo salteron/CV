@@ -30,9 +30,6 @@ body {
 
 .header {
     font-size: 32px;
-}
-
-.header, .title {
     font-weight: bold;
 }
 
@@ -59,14 +56,17 @@ body {
 a {
     color: inherit;
     text-decoration-thickness: 2%;
-    text-underline-offset: 2px;
+    text-underline-offset: 0.2em;
+    transition: color 0.3s ease;
 }
 
 a:hover {
-    text-decoration-thickness: 7%;
+    text-decoration-thickness: 10%;
+    color: #a58b5b;
+
 }
 
-.historyRecordHeader div {
+.historyRecordHeader div, .portfolioRecordHeader div {
     font-size: 20px;
 }
 
@@ -75,20 +75,12 @@ a:hover {
 }
 
 .screenshot {
-    margin-bottom: 1em;
-}
-
-.screenshot div {
-    font-size: 12px;
-}
-
-.portfolio-employer, .portfolio-role {
-    /* font-weight: bold; */
+    margin-bottom: 1.5em;
 }
 
 /*positioning*/
 
-.historyRecordHeader div {
+.historyRecordHeader div, .portfolioRecordHeader div {
     text-align: center;
     padding-top: 0;
     padding-bottom: 0;
@@ -137,9 +129,8 @@ div {
     padding: 5px 0;
 }
 
-.left, .right {
-    padding-left: 15px;
-    padding-right: 15px;
+.left {
+    margin-right: 5%;
 }
 
 img {
@@ -200,7 +191,7 @@ div.personal-info-item {
 
 /* Decoration */
 
-.historyRecordHeader {
+.historyRecordHeader, .portfolioRecordHeader {
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCA2NCA2NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNjQgNjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCiAgICA8Zz4NCiAgICAJPHBhdGggZD0iTTAsMzJMMzIsMGwzMiwzMkwzMiw2NEwwLDMyeiBNOCwzMmwyNCwyNGwyNC0yNEwzMiw4TDgsMzJ6IE0xNiwzMmwxNi0xNmwxNiwxNkwzMiw0OEwxNiwzMnogTTI0LDMybDgsOGw4LThsLTgtOEwyNCwzMnoiIC8+DQogICAgPC9nPg0KPC9zdmc+) bottom center no-repeat;
     background-size: 0.5em 0.5em;
     margin: 0 0 1em 0;
@@ -209,7 +200,9 @@ div.personal-info-item {
 }
 
 .historyRecordHeader:before,
-.historyRecordHeader:after {
+.historyRecordHeader:after,
+.portfolioRecordHeader:before,
+.portfolioRecordHeader:after {
     border: solid 0 #565046;
     border-width: 0.05em 0;
     bottom: calc((0.125em / 2) * 3);
@@ -219,11 +212,11 @@ div.personal-info-item {
     width: calc(50% - (1em / 2));
 }
 
-.historyRecordHeader:before {
+.historyRecordHeader:before, .portfolioRecordHeader:before {
     left: 0;
 }
 
-.historyRecordHeader:after {
+.historyRecordHeader:after, .portfolioRecordHeader:after {
     right: 0;
 }
 
