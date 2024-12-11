@@ -55,14 +55,15 @@ body {
 
 a {
     color: inherit;
-    text-decoration-thickness: 2%;
+    text-decoration-thickness: 5%;
     text-underline-offset: 0.2em;
+    text-decoration-color: #b3a05e;
     transition: color 0.3s ease;
 }
 
 a:hover {
     text-decoration-thickness: 10%;
-    color: #a58b5b;
+    color: #b3a05e;
 
 }
 
@@ -172,7 +173,7 @@ div.personal-info-item {
 .skills li::before {
     content: "›";
     margin: 0 .25em;
-    color: #85c356;
+    color: #b3a05e;
 }
 
 .historyRecordSummary ul, .portfolio-contribution ul {
