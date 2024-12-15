@@ -55,7 +55,7 @@ body {
 
 a {
     color: inherit;
-    text-decoration-thickness: 5%;
+    text-decoration-thickness: 4%;
     text-underline-offset: 0.2em;
     text-decoration-color: #b3a05e;
     transition: color 0.3s ease;
